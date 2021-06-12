@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heaven restaurant</title>
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/index4.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- to render elemnts -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link 
+       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+       rel="stylesheet">
+    <link rel = "icon"
+       href = "https://image.flaticon.com/icons/png/512/3170/3170733.png" 
+       type = "image/icon">
+</head>
+<body>
+    <!-- start header -->
+    <nav class="navbar">
+        <div><a href="index.html"class="brand"><span>h</span>eaven <span>r</span>estaurant</a></div>
+         <a href="#"class="toggle-button">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+           
+         </a>
+         
+         <div class="navbar-links">
+             <ul>
+                 <li><a href="index.html">home</a></li>
+                 <li><a href="index2.html">about</a></li>
+                 <li><a href="index3.html">menu</a></li>
+                 <li><a href="index4.html">chef</a></li>
+                 <li><a href="order.html">order</a></li>
+             </ul>
+         </div>
+      </nav>   
+        <h1>Meet Our Chefs</h1>
+        <p>they are nice </p>
+    <div class="gallery_container">
+        <div class="gallery">
+            <a target="_blank" href="chef/team-image1.jpg">
+            <img src="chef/team-image1.jpg" alt="dishe">
+            </a>
+            <div class="desc">New Catherine</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="chef/team-image2.jpg">
+            <img src="chef/team-image2.jpg" alt="dish">
+            </a>
+            <div class="desc">Lindsay Perlen</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="chef/team-image3.jpg">
+            <img src="chef/team-image3.jpg" alt="dish">
+            </a>
+            <div class="desc">Isabella Grac</div>
+        </div>
+    </div>
+    <script>
+        const togglebutton = document.getElementsByClassName('toggle-button')[0]
+     const navbarlinks = document.getElementsByClassName('navbar-links')[0]
+     
+     togglebutton.addEventListener('click',()=>{
+         navbarlinks.classList.toggle('active')
+     })
+         </script>
+    </body>

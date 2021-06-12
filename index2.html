@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heaven restaurant</title>
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/index2.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- to render elemnts -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link 
+       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+       rel="stylesheet">
+    <link rel = "icon"
+      href = "https://image.flaticon.com/icons/png/512/3170/3170733.png" 
+      type = "image/icon">
+</head>
+<body>
+    <nav class="navbar">
+        <div><a href="index.html"class="brand"><span>h</span>eaven <span>r</span>estaurant</a></div>
+         <a href="#"class="toggle-button">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+           
+         </a>
+         
+         <div class="navbar-links">
+             <ul>
+                 <li><a href="index.html">home</a></li>
+                 <li><a href="index2.html">about</a></li>
+                 <li><a href="index3.html">menu</a></li>
+                 <li><a href="index4.html">chef</a></li>
+                 <li><a href="order.html">order</a></li>
+             </ul>
+         </div>
+      </nav>   
+        <div class="about_container">
+            <div class="text">
+                 <h1>We've been Making The Delicious Foods Since 1999</h1>
+                 <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada. Proin scelerisque risus et ipsum semper molestie sed in nisi. Ut rhoncus congue lectus, rhoncus venenatis leo malesuada id.
+                     Sed elementum vel felis sed scelerisque. In arcu diam, sollicitudin eu nibh ac, posuere tristique magna. You can use this template for your cafe or restaurant website. Please tell your friends about templatemo. Thank you.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="css/about-image.jpg">
+                </div>
+        </div>   
+    <script>
+        const togglebutton = document.getElementsByClassName('toggle-button')[0]
+     const navbarlinks = document.getElementsByClassName('navbar-links')[0]
+     
+     togglebutton.addEventListener('click',()=>{
+         navbarlinks.classList.toggle('active')
+     })
+         </script>
+</body>
