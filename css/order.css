@@ -180,9 +180,11 @@ table{
 
     display:flex;
     justify-content: center;
-    box-shadow: 5px  10px 10px 3px #b1b0b0;
+    background-color: rgb(161, 204, 206);
+    margin-bottom: 30px;
    border:3px #815581 solid;
-   background-image: linear-gradient(to bottom right ,rgb(224, 206, 206), rgb(2, 97, 76))
+   background-image: linear-gradient(to bottom right ,rgb(224, 206, 206), rgb(2, 97, 76));
+   box-shadow: 5px  10px 10px 3px #b1b0b0;
 }
 td{
 color:rgb(243, 239, 239);
@@ -212,10 +214,10 @@ input:focus{
 button{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     border-color: rgb(0, 0, 0);
     width:100px;
     padding:5px;
@@ -229,5 +231,15 @@ button{
     text-transform: lowercase;
     font-size: 16px;
     font-weight:400;
+}
+p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+p span{
+    color: rgb(2, 97, 76);
+    font-weight: bold;
+    font-size: 25px;
 }
 
