@@ -180,7 +180,7 @@ table{
 
     display:flex;
     justify-content: center;
-    background-color: rgb(161, 204, 206);
+    box-shadow: 5px  10px 10px 3px #b1b0b0;
    border:3px #815581 solid;
    background-image: linear-gradient(to bottom right ,rgb(224, 206, 206), rgb(2, 97, 76))
 }
