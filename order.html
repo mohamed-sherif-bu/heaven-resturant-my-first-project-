@@ -45,7 +45,7 @@
     <div class="form">
         <div class="con">
             <p><span>o</span>rder <span>n</span>ow</p>  
-    <form method="GET onsubmit="return verifyPassword()" action="thanks.html">
+    <form method="GET " onsubmit="return verifyPassword()" action="thanks.html">
         <table>
         
             <tr>
@@ -143,13 +143,11 @@
         document.getElementById("message").innerHTML = "**Your Password can't contain white spaces";
         return false;
       }
-      var first=pw.substr(0,1);
-      if(!(first.match(/[A-Z]/))){
-        document.getElementById("message").innerHTML = "**Your Password must start with an uppercase character";
-         return false;
+   if(!(pw.match(/[A-Z]/))){
+    document.getElementById("message").innerHTML = "**Your Password must start with an uppercase character";
+     return false;
    }
-    }  
-    </script>
+    }
     
 
 </script>
